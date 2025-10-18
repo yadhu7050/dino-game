@@ -7,12 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="game">
-    <div id="dino"></div>
-    <div id="cactus"></div>
+  <div class="container">
+    <h1>🦖 DINO RUN 🦖</h1>
+    
+    <div id="score">Score: 0</div>
+    <div id="highScore">High Score: 0</div>
+    
+    <div class="game">
+      <div class="stars" id="stars"></div>
+      <div class="ground"></div>
+      <div id="dino">🦖</div>
+      <div id="cactus">🌵</div>
+      <div class="game-over-text" id="gameOverText">GAME OVER!</div>
+    </div>
+    
+    <div class="instructions">
+      Press <strong>SPACE</strong> or <strong>↑</strong> to jump | Press <strong>ENTER</strong> to restart
+    </div>
   </div>
-
-  <h2 id="score">Score: 0</h2>
 
   <script src="script.js"></script>
 </body>
